@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.color a{
+    background-color: #B71C1C;
+    color: #f1f1f1 !important;
+}
+.color a:hover{
+    background-color:#FFB74D;
+    color:#B71C1C !important;
+    border-radius: 20px;
+}
+.nav-item .color1:hover{
+    background-color: #FFB74D;
+    color:#B71C1C !important ;
+    border-radius: 20px;
+}
+
+.about{
+    background-image: url(image/bgimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    line-height: 1.5;
+}
+.contact{
+    background-image: url(image/bgimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.content{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100% ;
+    padding: 20px;
+}
+.cardtitle {
+    border: 2px solid whitesmoke;
+
+}
+.basics .card{
+    width: 250px !important;
+    height: auto !important;
+    margin-bottom: 5px;
+}
+.style {
+width: 100% !important;
+height: 100% !important;
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: #B71C1C !important;
+}
+.dropdown-menu a:hover{ 
+background-color: #B71C1C;
+color: #f1f1f1;
+border-radius: 5px;
+}
+
+
+.sandal {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    height: 50% !important;
+    text-align: center;
+  }
+  .bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+  }
+  
