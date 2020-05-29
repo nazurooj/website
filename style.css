@@ -9,10 +9,7 @@ ul li {
 a{
     text-decoration: none;
 }
-.color a{
-    background-color: #B71C1C;
-    color: #f1f1f1 !important;
-}
+
 .color a:hover{
     background-color:#FFB74D;
     color:#B71C1C !important;
@@ -24,7 +21,7 @@ a{
     border-radius: 20px;
 }
 
-.about{
+.about .prints{
     background-image: url(image/bgimage.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -51,6 +48,10 @@ a{
     width: 100% ;
     padding: 20px;
 }
+.gc{
+    background-image: linear-gradient(to bottom right, rgba(177, 41, 41, 0.733), rgba(19, 19, 18, 0.021));
+    border-radius: 10px;
+}
 .cardtitle {
     border: 2px solid whitesmoke;
 
@@ -75,36 +76,33 @@ color: #f1f1f1;
 border-radius: 5px;
 }
 
-
-.sandal {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
   *{
-    box-sizing: border-box;
+    box-sizing:border-box;
   }
   
-  .bg-image {
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-    height: 50% !important;
+  .bg-image{
+    position: relative;
     text-align: center;
   }
+  .bg-image img{
+    filter: blur(3px);
+    -webkit-filter: blur(4px);
+  }
   .bg-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.4); 
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    position: absolute;
     z-index: 2;
     width: 50%;
-    padding: 40px;
+    height: auto;
+    padding: 20px;
     text-align: center;
-    position: relative;
   }
   
