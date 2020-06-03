@@ -15,9 +15,9 @@ a{
     color:#B71C1C !important;
     width: auto;
     border-radius: 20px;
-    transition: .5s;
-    
+    transition: .5s;   
 }
+
 .about, .contact{
     background-image: url(image/bgimage.jpg);
     background-position: center;
@@ -26,6 +26,7 @@ a{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     line-height: 1.5;
 }
+
 h5{
     font-family: righteous;
 }
@@ -35,9 +36,8 @@ h5{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
     bottom: 0;
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1;
     width: 100% ;
     padding: 20px;
@@ -60,6 +60,15 @@ h5{
     width: 250px !important;
     height: auto !important;
     margin-bottom: 15px;
+}
+/* hover */
+.zoom{
+  transition: transform .5s;
+}
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.08); 
 }
 .style {
 width: 100% !important;

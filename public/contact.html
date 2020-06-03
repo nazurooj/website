@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Cinzel+Decorative:wght@700&family=Lobster&family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+         
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -91,17 +93,15 @@
     <div class="contact p-5 text-justify text-white-50">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 p-5">
-                    <h1 style="font-family:Cinzel Decorative; color: rgb(211, 223, 220);">CONTACT</h1>
+                <div class="col-md-12 p-5" data-aos="fade-right">
+                    <h1 style="font-family:Cinzel Decorative; color: rgb(211, 223, 220);" >CONTACT</h1>
                     <span style="width: 40px; height: 3px; background-color: #427900; display:block;">
                         <span
                             style="width: 370px; height: 2px; background-color: rgb(248, 241, 241); display:block;"></span>
-                    </span>
-
-                    <p class="pt-5" style="font-size: 20px;" >For Queries and Further Details...</p>
+                    </span> <p class="pt-5" style="font-size: 20px;" >For Queries and Further Details...</p>
                 </div>
 
-                <div class="p-3 col-sm-12 col-md-4">
+                <div class="p-3 col-sm-12 col-md-4" data-aos="fade-up">
                     <h4 style="color: rgb(241, 237, 237); font-family: cinzel decorative;">Call Us</h4>
 
                     <ul class="fa-ul" style="line-height: 1.9; font-size: 20px;">
@@ -117,7 +117,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="p-3 col-sm-12 col-md-4">
+                <div class="p-3 col-sm-12 col-md-4" data-aos="fade-up">
 
                     <h4 style="color: rgb(244, 251, 252); font-family: cinzel decorative;">Location</h4>
 
@@ -131,7 +131,7 @@
 
                 </div>
 
-                <div class="p-3 mr-0 col-sm-12 col-md-4">
+                <div class="p-3 mr-0 col-sm-12 col-md-4" data-aos="fade-up">
                     <h4 class="ml-0 pl-0" style="color: rgb(253, 251, 251); font-family:cinzel decorative;">Opening Hours</h4>
                     <ul class=" fa-ul ml-0 pt-2" style="font:20px 'Times New Roman', Times, serif;" ;>
 
@@ -175,6 +175,12 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:100,
+    duration:1000,
+    });
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

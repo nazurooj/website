@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+             
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body class="gc">
@@ -22,7 +24,8 @@
             <div class="row">
                 <div class="py-2 logo col-md-4">
                     <img src="image/gclogo.png" width="70px">
-                    <h4 class="pl-4 pt-2" style="display: inline-block; color:blanchedalmond; font:bold 2vw Sofia;">Basics</h4>
+                    <h4 class="pl-4 pt-2" data-aos="zoom-in"
+                    style="display: inline-block; color:blanchedalmond; font:bold 30px Sofia;">Basics</h4>
                 </div>
 
                 <div class="bar col-md-8 float-right" style="font-weight: bold;">
@@ -229,7 +232,12 @@
         </div>
     </div>
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:100,
+    duration:1000,
+    });
+    </script>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
